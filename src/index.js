@@ -5,11 +5,12 @@ const schemaBuild =require('../SchemaBuild/schemaBuild');
 const Auth_check =require('../middleware/auth');
 const mongoose =require('mongoose');
 const resolvers =require('../resolvers/index');
+const cors =require("cors");
 
 const app=express();
 const port=process.env.PORT;
 
-
+app.use(cors());
 // parsing
 app.use(bodyParser.json());
 // chack is the user is authenticated 
