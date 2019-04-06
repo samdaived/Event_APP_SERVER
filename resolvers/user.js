@@ -1,6 +1,6 @@
-import User from '../models/users';
-import token from '../helpers/token';
-import {hash,compare} from 'bcryptjs';
+const User =require('../models/users');
+const token =require('../helpers/token');
+const {hash,compare} =require('bcryptjs');
 
 
 

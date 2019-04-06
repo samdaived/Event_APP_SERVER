@@ -1,4 +1,4 @@
-import {buildSchema} from 'graphql';
+const {buildSchema} =require('graphql');
 
 
 const SchemaBuild= buildSchema(`

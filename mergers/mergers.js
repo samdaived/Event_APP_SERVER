@@ -1,5 +1,5 @@
-import User from '../models/users';
-import Event from '../models/events';
+const User =require('../models/users');
+const Event= require('../models/events');
 
 
 

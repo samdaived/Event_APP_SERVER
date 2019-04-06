@@ -1,11 +1,11 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import graphqlHTTP from 'express-graphql';
-import schemaBuild from '../SchemaBuild/schemaBuild';
-import Auth_check from '../middleware/auth';
-import mongoose from 'mongoose';
-import resolvers from '../resolvers/index';
-import cors from 'cors'
+const express =require('express');
+const bodyParser =require('body-parser');
+const graphqlHTTP =require('express-graphql');
+const schemaBuild =require('../SchemaBuild/schemaBuild');
+const Auth_check =require('../middleware/auth');
+const mongoose =require('mongoose');
+const resolvers =require('../resolvers/index');
+const cors =require('cors');
 
 const app=express();
 const port=process.env.PORT;

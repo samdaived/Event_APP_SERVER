@@ -1,6 +1,6 @@
-import User from '../models/users';
-import Event from '../models/events';
-import {user} from '../mergers/mergers';
+const User =require('../models/users');
+const Event =require('../models/events');
+const {user} =require('../mergers/mergers');
 
 
 

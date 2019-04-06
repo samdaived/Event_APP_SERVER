@@ -1,5 +1,5 @@
-import {event,createEvent,deleteEvent,cancelBook,bookEvent} from './event';
-import {login,createUser} from './user';
+const {event,createEvent,deleteEvent,cancelBook,bookEvent} =require('./event');
+const {login,createUser} =require('./user');
 
 const resolvers={
         event

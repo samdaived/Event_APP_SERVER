@@ -1,5 +1,5 @@
-import User from '../models/users';
-import jwt  from 'jsonwebtoken';
+const User =require('../models/users');
+const jwt  =require('jsonwebtoken');
 
 module.exports= async (req,res,next)=>{
     
