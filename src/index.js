@@ -10,7 +10,7 @@ const cors =require('cors');
 const app=express();
 const port=process.env.PORT;
 
-app.use(cors());
+
 // parsing
 app.use(bodyParser.json());
 // chack is the user is authenticated 
