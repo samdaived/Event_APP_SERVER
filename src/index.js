@@ -22,6 +22,9 @@ app.use("/graphql",graphqlHTTP({
     graphiql:true
 }));
 
+app.get("/",(req,res)=>{
+    res.send("working")
+})
 // connecting with the data base MONGODB 
 mongoose.connect(`${process.env.DATA_BASE}`)
 .then(()=>{
